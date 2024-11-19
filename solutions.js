@@ -17,12 +17,17 @@ console.log(newNumbers);
 
 //Question 9
 
-const result1 = 'bar' && 'foo';
-const result2 = false || 243;
-const result3 = 42 && false;
-// const result4 = myVar || 3000;
+// Convert the following `if...else` statement in to a ternary:
 
-console.log('result1:', result1);  // foo
-console.log('result2:', result2);  // 243
-console.log('result3:', result3);  // false
-// console.log('result4:', result4);  // 3000
+// let pizza = 'tasty';
+
+// if (pizza === 'tasty') {
+//   console.log('yum');
+// } else {
+//   console.log('yuck');
+// }
+
+// Your code here
+let pizza = 'not tasty';
+
+pizza === 'tasty' && console.log('yum') || console.log('yuck');
